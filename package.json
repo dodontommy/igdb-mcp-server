@@ -1,0 +1,52 @@
+{
+  "name": "igdb-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for the IGDB (Internet Game Database) API",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "igdb-mcp-server": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "igdb",
+    "games",
+    "api",
+    "model-context-protocol",
+    "twitch",
+    "game-database",
+    "claude",
+    "ai"
+  ],
+  "author": "tbonderenka",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbonderenka/igdb-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tbonderenka/igdb-mcp-server/issues"
+  },
+  "homepage": "https://github.com/tbonderenka/igdb-mcp-server#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
