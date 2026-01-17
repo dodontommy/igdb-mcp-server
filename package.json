@@ -24,16 +24,16 @@
     "claude",
     "ai"
   ],
-  "author": "tbonderenka",
+  "author": "dodontommy",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tbonderenka/igdb-mcp-server.git"
+    "url": "git+https://github.com/dodontommy/igdb-mcp-server.git"
   },
   "bugs": {
-    "url": "https://github.com/tbonderenka/igdb-mcp-server/issues"
+    "url": "https://github.com/dodontommy/igdb-mcp-server/issues"
   },
-  "homepage": "https://github.com/tbonderenka/igdb-mcp-server#readme",
+  "homepage": "https://github.com/dodontommy/igdb-mcp-server#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0"
   },
